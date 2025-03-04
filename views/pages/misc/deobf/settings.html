@@ -1,0 +1,91 @@
+<div id="csel" class="settings-content">
+  <div class="settings-header">
+    <p class="cseltitle-main">Setti&#173;ngs</p>
+    <i class="far fa-times-circle close-settings-btn"></i>
+  </div>
+  <div class="settings-content-body">
+    <div class="csel-container-left">
+      <p class="cseltitle">T&#173;ab Clo&#173;ak</p>
+      <form id="titleform" class="cloakform">
+        <input type="text" placeholder="Tab Title" spellcheck="false" />
+        <input type="submit" value="Apply" />
+      </form>
+      <form id="iconform" class="cloakform">
+        <input type="text" placeholder="Icon URL" spellcheck="false" />
+        <input type="submit" value="Apply" />
+      </form>
+      <p class="cseltitle">Ultr&#173;avio&#173;let P&#173;roxy Tr&#173;ansport</p>
+      <div class="radio-group" id="uv-transport-list">
+        <label>
+          <p>
+            Libcurl
+            <span class="default-badge">Cr&#173;oss-Bro&#173;wser/Secu&#173;re (Fi&#173;refox)</span>
+          </p>
+          <input type="radio" name="uv-transport" value="libcurl" checked />
+        </label>
+        <label>
+          <p>
+            Epoxy
+            <span class="bare-badge">Fa&#173;stest/Se&#173;cure (Chro&#173;mium, App&#173;le)</span>
+          </p>
+          <input type="radio" name="uv-transport" value="epoxy" />
+        </label>
+        <label>
+          <p>Bare <span class="beta-badge">L&#173;east Sec&#173;ure (All)</span></p>
+          <input type="radio" name="uv-transport" value="bare" />
+        </label>
+      </div>
+      <p class="cseltitle">Adva&#173;nced Opt&#173;ions</p>
+      <div class="radio-group">
+        <label>
+          <p>Hi&#173;de Ad&#173;s <span class="default-badge">AdGu&#173;ard</span></p>
+          <input type="checkbox" id="hideads" class="switch" checked />
+        </label>
+        <label>
+          <p>En&#173;able T&#173;or <span class="bare-badge">SOC&#173;KS5 On&#173;ion Rou&#173;ting</span></p>
+          <input type="checkbox" id="useonion" class="switch" />
+        </label>
+      </div>
+    </div>
+    <div class="settings-right-column">
+      <p class="cseltitle">Se&#173;arch Eng&#173;ine</p>
+      <select>
+        <option>Goog&#173;le</option>
+        <option>Bi&#173;ng</option>
+        <option>DuckD&#173;uckGo</option>
+        <option>Yah&#173;oo</option>
+      </select>
+      <p class="cseltitle">Ic&#173;on Pres&#173;ets</p>
+      <select id="icon-list">
+        <option><!-- Leave this blank to avoid a bug. --></option>
+        <option>Google</option>
+        <option>Bing</option>
+        <option>Google Drive</option>
+        <option>Gmail</option>
+      </select>
+      <p class="cseltitle">About:Bla&#173;nk (Bet&#173;a)</p>
+      <div class="switch-container">
+        <p>Stealth Tab <span class="default-badge">Def&#173;ault</span></p>
+        <input type="checkbox" class="switch" />
+      </div>
+      <p class="cseltitle">Se&#173;lect The&#173;me (Bet&#173;a)</p>
+      <div class="radio-group">
+        <label>
+          <p>Light</p>
+          <input type="radio" name="theme" value="lighttheme" checked />
+        </label>
+        <label>
+          <p>Dark</p>
+          <input type="radio" name="theme" value="darktheme" />
+        </label>
+      </div>
+      <p class="cseltitle">En&#173;able De&#173;vtools (Bet&#173;a)</p>
+      <div class="radio-group">
+        <label>
+          <p>Eru&#173;da Devto&#173;ols<span class="bare-badge">CT&#173;RL+SHI&#173;FT+&#173;I</span></p>
+          <input type="radio" name="theme" value="lighttheme" checked />
+        </label>
+      </div>
+    </div>
+  </div>
+</div>

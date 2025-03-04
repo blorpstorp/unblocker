@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="version" content="<!-- VERSION -->" />
+    <title>Hol&#173;y Un&#173;b&#173;l&#173;ock&#173;e&#173;r</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/icon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-icon.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/icon-small.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@3.5/tsparticles.bundle.min.js"></script>
+  </head>
+
+  <body>
+    <!-- IMPORTANT-HUCOOKINGINSERT-DONOTDELETE -->
+    <div id="header" class="fullwidth"><!--HEADER--></div>
+    <div id="background-animated" class="fullwidth"></div>
+    <div id="mainbody" class="fullwidth">
+      <div class="box-clear text-center textm">
+        <!-- IMPORTANT-HUCOOKINGINSERT-DONOTDELETE -->
+        <h1 class="bigtitle">Icon In&#173;formation</h1>
+        <h3>How to find the Ic&#173;on URL of a Site</h3>
+        <p>
+          Go to the website you want an icon from, then use this boo&#173;kmarklet
+          (drag it to your bookma&#173;rks bar):
+        </p>
+        <div id="bks-parent">
+          <a id="iconfinder" class="fancybutton fb-l glowbutton"
+            >Find Ic&#173;on URL</a
+          >
+        </div>
+        <script>
+          document.getElementById('iconfinder').href =
+            `javascript:alert((Array.from(document.head.querySelectorAll("link[rel*='icon']")).slice(-1)[0]||0).href||location.origin+"/favicon.ico")`;
+        </script>
+        <p>
+          Copy the URL that the bookm&#173;arklet gives you. Then go back to H&#173;U and
+          enter in the URL for the Icon URL in Settings. Enjoy!
+        </p>
+      </div>
+    </div>
+    <div id="footer" class="fullwidth"><!--FOOTER--></div>
+    <!-- IMPORTANT-HUCOOKINGINSERT-DONOTDELETE -->
+    <script src="assets/js/common.js"></script>
+    <script src="assets/js/csel.js"></script>
+    <script defer="defer" src="assets/js/background/main.js"></script>
+  </body>
+</html>
